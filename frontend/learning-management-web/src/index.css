@@ -1,0 +1,220 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: white !important;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* 
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+} */
+
+body {
+  margin: 0;
+
+  min-width: 320px;
+
+}
+.appContainer{
+ 
+  margin: 24px !important;
+  margin-top:80px !important;
+}
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+/* button:hover {
+  border-color: #646cff;
+} */
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+.gridBox{
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr !important;
+  gap: 24px !important;
+}@media (max-width: 1700px) {
+  .gridBox {
+    grid-template-columns: 1fr 1fr 1fr 1fr !important;
+
+  }
+}
+.error{
+  font-size: 12px !important;
+  color: #b30909 !important;
+}
+@media (max-width: 1300px) {
+  .gridBox {
+    grid-template-columns: 1fr 1fr 1fr  !important;
+
+  }
+}
+
+@media (max-width: 1000px) {
+  .gridBox {
+    grid-template-columns: 1fr 1fr  !important;
+
+  }
+}
+@media (max-width: 1000px) {
+  .gridBox {
+    grid-template-columns: 1fr 1fr  !important;
+
+  }
+}
+
+@media (max-width: 600px) {
+  .gridBox {
+    grid-template-columns: 1fr  !important;
+
+  }
+}
+.flexBox{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+.pimaryBtn{
+  background-color: #1b3764 !important;
+  text-transform: none !important;
+  color: white !important;
+}
+
+.pimaryBtnAdmin{
+  background-color: #3B9261 !important;
+  text-transform: none !important;
+  color: white !important;
+}
+.cancelBtn {
+  background-color: white !important;
+  text-transform: none !important;
+  color: #1b3764 !important;
+  border: 1px solid #1b3764 !important;
+}
+.cancelBtnAdmin {
+  background-color: white !important;
+  text-transform: none !important;
+  color: #3B9261 !important;
+  border: 1px solid #3B9261 !important;
+}
+
+.pimaryBtn:disabled{
+  background-color: #8792a3 !important;
+  text-transform: none !important;
+  color: white !important;
+}
+.secondaryBtn{
+  border:1px solid #1b3764 !important;
+  text-transform: none !important;
+  color: #1b3764 !important;
+}
+.secondaryBtnAdmin{
+  border:1px solid #3B9261 !important;
+  text-transform: none !important;
+  color: #3B9261 !important;
+}
+.appTableContainer {
+  /* padding: 8px 16px !important; */
+  display: grid !important;
+  gap: 16px !important;
+}
+.tableContainer {
+  box-shadow: none !important;
+}
+.appTable {
+  min-width: 650px !important;
+}
+.appTableRow {
+  background-color: #efefef !important ;
+  border-radius: 8px !important;
+}
+.tableText{
+  margin-left: 3% !important;
+}
+.tableCell {
+  border-bottom: none !important;
+  padding: 8px !important;
+  font-weight: 400 !important;
+  margin-left: 8px !important;
+  
+}
+.tableCellDivider {
+  display: flex !important;
+  align-items: center !important;
+}
+button{
+  outline: none !important;
+}
+.header{
+  font-size: 24px !important;
+  font-weight: 800 !important;
+}
+.headerContainer{
+  margin-bottom: 8px !important;
+}/* Style the active tab label */
+/* Style for the active tab label */
+.MuiTab-root.Mui-selected {
+  color: #1b3764 !important;
+  border-bottom: 2px solid #1b3764 !important;
+}
+
+/* Optional: Style the tab indicator separately if needed */
+.MuiTabs-indicator {
+  background-color: #1b3764 !important;
+}
+.deleteBtn{
+  background-color: #b30909 !important;
+  text-transform: none !important;
+  color: white !important;
+}
+.courseContentConatiner{
+  display: flex !important;
+  flex-wrap:wrap !important ;
+  align-items: center !important;
+  margin-bottom: 12px !important;
+  justify-content: space-between !important;
+}
+input{
+  background-color: white !important;
+  color: black !important;
+}

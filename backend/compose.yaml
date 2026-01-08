@@ -1,0 +1,41 @@
+services:
+
+  lms-postgres-server:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: lms_postgres_server
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: lms_db
+      POSTGRES_USER: lms_usr
+      POSTGRES_PASSWORD: lms123
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - lms_network
+
+  lms-api-app:
+    image: 305251478828.dkr.ecr.us-east-1.amazonaws.com/api-app:1.0.0
+    container_name: lms_api_app
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./build/libs/lms-api-app.jar:/app/app.jar
+      - /home/ram/code_commit/learning-management-system/backend/api-app/src/main/resources/application.properties:/app/config/application.properties
+    working_dir: /app
+    command: ["java", "-jar", "app.jar", "--spring.config.location=classpath:/application.properties,file:/app/config/application.properties"]
+    depends_on:
+      - lms-postgres-server
+    restart: "no"
+    networks:
+      - lms_network
+
+networks:
+  lms_network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+    driver: local

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/backend/api-app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/api-app/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/api-app/target/generated-sources/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/api-lib/lms-server-bff/lms-web-bff/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/api-lib/lms-server-bff/lms-web-bff/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/api-lib/lms-server-bff/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/api-lib/lms-server-bff/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/api-lib/lms-server-services/lms-svc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/api-lib/lms-server-services/lms-svc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/api-lib/lms-server-services/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/api-lib/lms-server-services/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/api-lib/lms-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/api-lib/lms-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/api-lib/lms-web-bff/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/api-lib/lms-web-bff/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/api-lib/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/api-lib/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
