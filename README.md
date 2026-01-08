@@ -17,7 +17,7 @@ A comprehensive, full-stack Learning Management System built with Spring Boot an
 
 ### Backend (Spring Boot)
 - **Language**: Java 17
-- **Framework**: Spring Boot 2.6.x
+- **Framework**: Spring Boot 3.2.5
 - **Database**: PostgreSQL 15 (Dockerized)
 - **Authentication**: AWS Cognito + Dynamo Auth
 - **Storage**: AWS S3
